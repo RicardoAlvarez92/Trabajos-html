@@ -1,0 +1,32 @@
+#caja {
+    background-color: green;
+    height: 390px;   
+}
+
+h1{
+    font-size: 40px;
+}
+
+.bc{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.bei{
+    color: rgb(235, 235, 177);
+    font-size: 18px;
+
+}
+
+.amag{
+    color: yellow;
+    font-size: 20px;
+}
+
+.red{
+    color: red;
+    font-size: 16px;
+}
+
+

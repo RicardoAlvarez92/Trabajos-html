@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="curriculum.css" rel="stylesheet" type="text/css">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <!-- action se refiere a la accion que se realizara -->
+        <!-- method hace referencia al metodo http usado para enviar los datos. Get es el método por defecto -->
+
+        <form>
+           <p> <label for="name">Nombre:</label>
+            <input type="text" />
+        </p>
+            <p><label for="email">Correo Electronico:</label>
+            <input type="text" name="email">  
+        </p>  
+            <p><label for="Password">Contraseña</label>
+            <input type="password" name="Password"/>
+        </p>
+        <p>
+           <label for="">Publicación</label> 
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <label for="">Color favorito</label>
+        <select name="color">
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+        </select>
+        
+
+    </p>  
+    <p>
+        <label for="">Selecciona tu rango de edad</label>
+    </p>
+        <label for="">De 18 a 22</label>
+        <input type="radio" name="edad" id="" />
+        <p>
+        <label for="">De 23 a 28</label>
+        <input type="radio" name="edad" id="" />
+    </p>
+    <p>
+        <label for="">De 29 a 59</label>
+        <input type="radio" name="edad" id="" />
+    </p>
+    <!-- input type submit agrega un boton para enviar datos -->
+    <button type="submit">Guardar datos</button>
+
+
+</form>
+    </body>
+
+</html>

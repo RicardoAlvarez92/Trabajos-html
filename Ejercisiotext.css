@@ -1,0 +1,43 @@
+#caja{
+    background-color: skyblue;
+    width: 1000px; height: 650px;
+    margin: auto;
+}
+h1{ 
+    text-align: right;
+    margin-right: 20px;}
+
+h2{
+    margin-left: 20px;
+}
+
+p{
+    font-size: 18px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.ti1{
+    color: red;
+    font-style: italic;
+}
+
+.tn{
+    color: orange;
+}
+
+.tn1{
+    margin-left: 35px;
+    color: orange;
+}
+
+.t2{
+    margin-left: 35px;
+}
+
+.tsbv{
+    background-color: aliceblue;
+    color: green;
+    font-style: italic;
+}
+

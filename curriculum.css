@@ -1,0 +1,23 @@
+#caja {
+    
+    background-color: rgb(236, 228, 228);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.sub{
+    background-color: rgb(100, 97, 97);
+    font-size: 18px;
+    color: red;
+
+}
+.tex{
+    font-size: 12px;
+    background-color: rgb(189, 181, 181);
+}
+.texp{
+    font-size: 16px;
+    background-color: rgb(150, 148, 148);
+    color: rgb(145, 9, 145);
+}
